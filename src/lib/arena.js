@@ -43,26 +43,6 @@ export default class Arena {
       })
   }
 
-  async logout () {
-    return await this._fetch({
-      method: 'POST',
-      url: '/accounts/logout',
-      body: {}
-    })
-      .then((res) => {
-        if ((res.status === 200 || res.status === 201) ||
-            (res.status === 400 && res.code === 209)) {
-          return {}
-        } else {
-          throw res
-        }
-      })
-      .catch((error) => {
-        console.log('error logging out')
-        throw (error)
-      })
-  }
-
   async _fetch (opts) {
     opts = _.extend({
       method: 'GET',
