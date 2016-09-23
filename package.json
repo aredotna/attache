@@ -3,10 +3,31 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "node node_modules/react-native/local-cli/cli.js start"
+    "start": "react-native start"
   },
   "dependencies": {
-    "react": "15.3.1",
-    "react-native": "0.33.0"
+    "apsl-react-native-button": "3.0.0",
+    "immutable": "3.8.1",
+    "key-mirror": "1.0.1",
+    "react": "15.3.0",
+    "react-mixin": "2.0.2",
+    "react-native": "0.32.0",
+    "react-native-i18n": "0.1.1",
+    "react-native-navbar": "1.5.0",
+    "react-native-router-flux": "3.35.0",
+    "react-native-simple-store": "1.0.1",
+    "react-native-simpledialog-android": "1.0.7",
+    "react-native-vector-icons": "2.0.3",
+    "react-redux": "4.4.5",
+    "react-timer-mixin": "0.13.3",
+    "redux": "3.5.2",
+    "redux-thunk": "2.1.0",
+    "regenerator": "0.8.46",
+    "tcomb-form-native": "0.5.3",
+    "undefined": "0.1.0",
+    "validate.js": "0.9.0"
+  },
+  "devDependencies": {
+    "flow-bin": "^0.32.0"
   }
 }
