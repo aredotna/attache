@@ -1,0 +1,68 @@
+{
+  "en": {
+    "LoginForm": {
+      "email": "Email",
+      "password": "Password",
+    },
+    "Login": {
+      "login": "Log in"
+    },
+    "Logout": {
+      "logout": "Log out"
+    },
+    "Register": {
+      "register": "Register"
+    },
+    "FieldValidation": {
+      "valid_email": "Provide valid email",
+      "valid_password": "6-12 characters in length",
+    },
+    "Profile": {
+      "profile": "Profile",
+    }
+  },
+  "fr": {
+    "LoginForm": {
+      "email": "Email",
+      "password": "Password",
+    },
+    "Login": {
+      "login": "Log in"
+    },
+    "Logout": {
+      "logout": "Log out"
+    },
+    "Register": {
+      "register": "Register"
+    },
+    "FieldValidation": {
+      "valid_email": "Provide valid email",
+      "valid_password": "6-12 characters in length",
+    },
+    "Profile": {
+      "profile": "Profile",
+    }
+  },
+  "es": {
+    "LoginForm": {
+      "email": "Email",
+      "password": "Password",
+    },
+    "Login": {
+      "login": "Log in"
+    },
+    "Logout": {
+      "logout": "Log out"
+    },
+    "Register": {
+      "register": "Register"
+    },
+    "FieldValidation": {
+      "valid_email": "Provide valid email",
+      "valid_password": "6-12 characters in length",
+    },
+    "Profile": {
+      "profile": "Profile",
+    }
+  }
+}
