@@ -2,6 +2,8 @@
 
 So far, this is just an experiment to understand the kind of workflow that would work well for building an Are.na + React Native app (very much inspired by @jc4p and his [WIP Are.na App](https://github.com/jc4p/ReactiveArena)). We started with authentication because, well, no one wants to do auth.
 
+![](https://d2w9rnfcy7mm78.cloudfront.net/715400/original_a95fefdf730ec3d3232e9b9dc9662a50.png)
+
 Once logged in, two things are stored in localStorage, an auth token (retrieved via `new AuthToken().getSessionToken()` ) and the current user (retrieved via `new CurrentUser.getCurrentUser()`). There's probably a less convoluted way of doing this!
 
 All API calls should live in `lib/arena.js`. We also agree with @jc4p, it would be cool to do this in a node_module that anyone could install.
